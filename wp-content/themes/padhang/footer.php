@@ -26,12 +26,6 @@
 			<div class="copyright">
 				<?php do_action( 'padhang_footer' ); ?>
 			</div><!--.copyright -->			
-
-			<div class="powered">
-				<a href="<?php echo esc_url( __( 'http://wordpress.org/', 'padhang' ) ); ?>"><?php printf( __( 'Proudly powered by %s', 'padhang' ), 'WordPress' ); ?></a>
-				<span class="sep">&bull;</span> 
-				<?php printf( __( 'Theme: %1$s by %2$s.', 'padhang' ), 'Padhang', '<a href="http://blog.hirizh.name/" rel="designer">Rizqy Hidayat</a>' ); ?>
-			</div><!-- .powered -->
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
